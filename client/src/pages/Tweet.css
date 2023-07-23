@@ -1,0 +1,256 @@
+/* Tweet.css */
+
+.tweet-container {
+    background-color:black;
+    border: 1px solid skyblue;
+    border-radius: 8px;
+    padding: 0px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    word-wrap: break-word;
+    height: 30vh;
+    width: 27vh;
+
+}
+.tweet-container:hover{
+  transform: scale(1.1);
+}
+.tweets-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  padding: 30px;
+  margin-left: 80px;
+}
+  .tweet-content {
+    position: relative;
+    font-size: 15px;
+    font-family: 'Mynerve', cursive;
+    color:white;
+    border:solid 2px honeydew;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    height:139px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .tweet-content :hover{
+    transform: scale(1.05);
+  }
+  
+  
+  .tweet-info {
+    display: flex;
+    flex-direction: row;
+    background-color: honeydew;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 5px;
+    align-items: center;
+    color: #777;
+    height: 22px;
+    /* position: relative; */
+
+  }
+  /* .tweet-info :hover{
+    transform: scale(1.05);
+  } */
+  .author {
+    font-size: 14px;
+    position: relative;
+  }
+  
+  .date {
+    font-size: 12px;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+    /* font-family: 'Mynerve', cursive; */
+/* font-family: 'Orbitron', sans-serif; */
+  }
+  
+  /* Add styles to horizontally align the tweet containers */
+  .tweets-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+ 
+    
+.a001 {
+  background-color:honeydew;
+  color:black;
+  height: 37px;
+  width: 30px;
+  border-radius: 10px;
+  margin-left: 5px;
+  }
+  .a000{
+    border:1px solid black;
+  }
+  .a002{
+    background-color: white;
+  }
+  .a003{
+    padding-left: 8px;
+  }
+
+
+  /* Tweet.css */
+
+.a-tweet-container {
+  background-color:black;
+  border: 1px solid skyblue;
+  border-radius: 8px;
+  padding: 0px;
+  margin: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  word-wrap: break-word;
+  height: 50vh;
+  width: 50vh;
+
+}
+/* .a-tweet-container:hover{
+transform: scale(1.1);
+} */
+.tweets-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 30px;
+  width: 100vw;
+  padding-top: 50px;
+  margin-left: 45px;
+}
+
+.a-tweet-content {
+  position: relative;
+  font-size: 18px;
+  font-family: 'Mynerve', cursive;
+  background-color: black;
+  color:white;
+  border:solid 2px honeydew;
+  border-radius: 6px;
+  /* margin-bottom: 10px; */
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+  height:253px;
+  width:272px;
+  /* margin-left: 2px; */
+  /* margin-right: 2px; */
+}
+.a-tweet-content :hover{
+  transform: scale(1.05);
+}
+
+
+.a-tweet-info {
+  display: flex;
+  flex-direction: row;
+  background-color: honeydew;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 7px;
+  align-items: center;
+  color: #777;
+  height: 22px;
+  /* position: relative; */
+
+}
+/* .tweet-info :hover{
+  transform: scale(1.05);
+} */
+.a-author {
+  font-size: 14px;
+  position: relative;
+}
+
+.a-date {
+  font-size: 12px;
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 4px;
+  padding-right: 4px;
+  /* font-family: 'Mynerve', cursive; */
+/* font-family: 'Orbitron', sans-serif; */
+}
+
+/* Add styles to horizontally align the tweet containers */
+.a-tweets-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.a-a001{
+  background-color: black;
+  color: white;
+  margin:5px;
+}
+.a-a000{
+  border:1px solid black;
+}
+.a-a002{
+  background-color: white;
+}
+.a-a003{
+  padding-left: 8px;
+}
+
+.grid{
+  display: flex;
+  justify-content: space-between;
+}
+
+.save{
+  margin:2px;
+  margin-right: 5px;
+}
+.save:hover{
+  transform: scale(1.1);
+}
+.delete{
+  margin:2px;
+  margin-left: 0px;
+}
+.delete:hover{
+  transform: scale(1.1);
+}
+.post{
+  display:flex;
+}
+.prev,.next{
+  /* top:150vh; */
+  font-size: xx-large;
+  color:honeydew
+}
+.prev:hover{
+  transform: scale(1.3);
+  background-color: honeydew;
+}
+.next:hover{
+  transform: scale(1.3);
+  background-color: honeydew;
+}
+.engulf{
+  display: flex;
+  align-items: center;
+}

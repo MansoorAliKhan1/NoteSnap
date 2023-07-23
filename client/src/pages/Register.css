@@ -1,0 +1,58 @@
+/* Styles for the container div */
+/* div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  } */
+  
+  /* Styles for the heading */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the form */
+  form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styles for the input fields */
+  input {
+    /* height: 10px; */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  /* Styles for the submit button */
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color:black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the submit button on hover */
+  input[type="submit"]:hover {
+    background-color: black;
+  }
+  
+  /* Styles for line breaks */
+  br {
+    margin-bottom: 5px;
+  }
+  .login{
+    margin-top: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
