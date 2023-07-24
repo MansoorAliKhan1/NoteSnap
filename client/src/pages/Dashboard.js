@@ -9,7 +9,7 @@ const Dashboard = () => {
 	const [tempQuote, setTempQuote] = useState('')
 
 	async function populateQuote() {
-		const req = await fetch('http://localhost:1337/api/quote', {
+		const req = await fetch('http://16.171.26.159:1337/api/quote', {
 			headers: {
 				'x-access-token': localStorage.getItem('token'),
 			},
@@ -44,7 +44,7 @@ const Dashboard = () => {
 	async function updateQuote(event) {
 		event.preventDefault()
 
-		const req = await fetch('http://localhost:1337/api/quote', {
+		const req = await fetch('http://16.171.26.159:1337/api/quote', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',

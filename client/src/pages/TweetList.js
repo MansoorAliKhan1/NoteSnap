@@ -31,7 +31,7 @@ useEffect(()=>{
 },[page])
 async function postTweets()
 {
-    const res=await fetch('http://localhost:1337/api/pagination',{
+    const res=await fetch('http://16.171.26.159:1337/api/pagination',{
         method:'POST',
         headers: {
             'x-access-token': localStorage.getItem('token'),
@@ -52,7 +52,7 @@ async function postTweets()
     }
 }
 async function populateTweets() {
-    const req = await fetch('http://localhost:1337/api/tweets', {
+    const req = await fetch('http://16.171.26.159:1337/api/tweets', {
         headers: {
             'x-access-token': localStorage.getItem('token'),
         },
@@ -70,7 +70,7 @@ async function populateTweets() {
 
 async function postTweet(){
     // setCount(count+1);
-    const res=await fetch('http://localhost:1337/api/tweets',{
+    const res=await fetch('http://16.171.26.159:1337/api/tweets',{
         method:'POST',
         headers: {
             'x-access-token': localStorage.getItem('token'),
@@ -111,7 +111,7 @@ useEffect(() => {
 },[])
 
 async function handleDelete(){
-    const req = await fetch('http://localhost:1337/api/handleDelete', {
+    const req = await fetch('http://16.171.26.159:1337/api/handleDelete', {
         headers: {
             'x-access-token': localStorage.getItem('token'),
         },

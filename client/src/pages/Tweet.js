@@ -22,7 +22,7 @@ const Tweet = ({ tweet, id, isTweetDeleted,setIsTweetDeleted,tweets, setTweets,p
   // console.log(id);
   async function Delete() {
     // console.log(id);
-    const req = await fetch('http://localhost:1337/api/delete', {
+    const req = await fetch('http://16.171.26.159:1337/api/delete', {
         method:'POST',
         headers: {
             'x-access-token': localStorage.getItem('token'),
@@ -46,7 +46,7 @@ const Tweet = ({ tweet, id, isTweetDeleted,setIsTweetDeleted,tweets, setTweets,p
 }
 async function UpdateNote(){
 
-  const res=await fetch('http://localhost:1337/api/update',{
+  const res=await fetch('http://16.171.26.159:1337/api/update',{
         method:'POST',
         headers: {
             'x-access-token': localStorage.getItem('token'),
